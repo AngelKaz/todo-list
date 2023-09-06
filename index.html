@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor - Checklist</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="checklist">
+        <div class="add-checklist"> <!-- DIV hvor man kommer til at kunne tilføje en ny checklist item -->
+            <div class="header">
+                <h2>Add Todo Item</h2>
+            </div>
+
+            <input type="text" placeholder="Todo Item" id="name">
+            <br>
+            <button id="add-item">Add Item</button>
+            <br>
+            <button id="delete-list">Delete List</button>
+        </div>
+
+        <div class="divider"></div> <!-- Tilføjet divider for at gøre design mere clean -->
+
+        <div class="checklist-items"> <!-- Alle checklist items -->
+            <div class="items"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
